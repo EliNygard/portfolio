@@ -1,18 +1,25 @@
 {
     "projects": [
       {
-        "title": "Project One",
+        "title": "HotView Labs",
         "description": "This is a description of project one.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "link": "http://example.com/project-one",
-        "image": "images/project-one.png"
+        "link": "https://norofffeu.github.io/FED1-PE1-EliNygard/",
+        "image": "projects-img/HVL_16-9.png"
       },
       {
-        "title": "Project Two",
+        "title": "Tórshavn Science Museum",
         "description": "This is a description of project two.",
-        "technologies": ["React", "Node.js"],
-        "link": "http://example.com/project-two",
-        "image": "images/project-two.png"
+        "technologies": ["HTML", "CSS"],
+        "link": "https://elinygard.github.io/FED1-SP1-EliNygard/",
+        "image": "projects-img/TSM_16-9.png"
+      },
+      {
+        "title": "Square Eyes",
+        "description": "This is a description of project two.",
+        "technologies": ["HTML", "CSS"],
+        "link": "https://norofffeu.github.io/FED1-HTML-CSS1-CA-EliNygard/",
+        "image": "projects-img/SE_16-9.png"
       }
     ],
     "contact": {
