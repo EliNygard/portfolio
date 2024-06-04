@@ -1,0 +1,28 @@
+:root {
+    --color-text-dark: #000;
+    --color-text-light: #DBDFDE;
+
+    --color-theme-green: #12503A;
+    --color-theme-green-hover-1: #018354;
+    --color-theme-light-hover-2: #fff;
+}
+
+.color-text-dark {
+    color: var(--color-text-dark)
+}
+
+.color-text-light {
+    color: var(--color-text-light);
+}
+
+.color-theme-green {
+    color: var(--color-theme-green);
+}
+
+.color-theme-green-hover-1 {
+    color: var(--color-theme-green-hover-1);
+}
+
+.color-theme-light-hover-2 {
+    color: var(--color-theme-light-hover-2);
+}
