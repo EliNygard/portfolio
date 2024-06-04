@@ -21,6 +21,9 @@
         line-height: 1.687rem;
     }
 
+
+    /* intro page */
+
     .intro-wrapper {
         margin: 6rem;
         flex-direction: row;
@@ -45,5 +48,38 @@
         font-size: 1rem;
     }
 
-    
+
+    /* projects section */
+
+    .projects-wrapper {
+        margin: 6rem;
+    }
+
+    .thumbnail {
+        flex-direction: row;
+    }
+
+    .thumbnail img {
+        order: 1;
+    }
+
+    .thumbnail .title {
+        order: 2;
+    }
+
+    .thumbnail p {
+        order: 3;
+    }
+
+    .projects-header h2, .projects-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .title h4 {
+        font-size: 1.375rem;
+    }
+
+    .languages {
+        font-size: 1rem;
+    }
 }
