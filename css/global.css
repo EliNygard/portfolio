@@ -1,8 +1,7 @@
-.content {
-    /* max-width: 1280px; */
-    /* margin: auto; */
-}
-
 .max-w {
     max-width: 1280px;
+}
+
+li {
+    list-style: none;
 }

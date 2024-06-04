@@ -3,8 +3,8 @@
     --color-text-light: #DBDFDE;
 
     --color-theme-green: #12503A;
-    --color-theme-red-hover-1: #830A48;
-    --color-theme-light-hover-2: #fff;
+    --color-theme-red-hover: #830A48;
+    --color-theme-light-hover: #fff;
 
     --color-theme-bg-dark: #0E1A22;
 }
@@ -21,10 +21,10 @@
     color: var(--color-theme-green);
 }
 
-.color-theme-red-hover-1 {
-    color: var(--color-theme-red-hover-1);
+.color-theme-red-hover {
+    color: var(--color-theme-red-hover);
 }
 
-.color-theme-light-hover-2 {
-    color: var(--color-theme-light-hover-2);
+.color-theme-light-hover {
+    color: var(--color-theme-light-hover);
 }

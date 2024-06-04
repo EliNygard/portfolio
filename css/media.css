@@ -13,6 +13,14 @@
         display: none;
     }
 
+    
+    /* fonts */
+
+    p {
+        font-size: 1.125rem;
+        line-height: 1.687rem;
+    }
+
     .intro-wrapper {
         margin: 6rem;
         flex-direction: row;

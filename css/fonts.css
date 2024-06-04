@@ -5,6 +5,13 @@
   font-style: italic;
 }
 
+.newsreader-font {
+    font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;

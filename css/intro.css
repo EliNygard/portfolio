@@ -24,7 +24,6 @@
 }
 
 .contact-icons {
-    list-style: none;
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -37,7 +36,7 @@
 }
 
 .contact-icons li a i:hover {
-    color: var(--color-theme-red-hover-1);
+    color: var(--color-theme-red-hover);
 }
 
 .intro-menu {
