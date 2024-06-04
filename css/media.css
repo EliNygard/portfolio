@@ -1,17 +1,26 @@
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 767px) {
 
 }
 
+@media only screen and (min-width: 768px) {
+    .intro-wrapper {
+        margin: 6rem 4rem;
+    }
+}
+
 @media only screen and (min-width: 1000px) {
+    .hide-on-bs {
+        display: none;
+    }
+
     .intro-wrapper {
         margin: 6rem;
         flex-direction: row;
-        gap: 2rem;
+        gap: 12rem;
     }
 
     .intro-1 {
-        height: auto;
-        flex-basis: 50%;
+        min-width: 300px;
         
     }
 
@@ -19,7 +28,9 @@
         font-size: 4rem;
     }
 
-    .intro-2 {
-        flex-basis: auto;
+    .menu p {
+        font-size: 1rem;
     }
+
+    
 }

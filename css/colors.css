@@ -3,7 +3,7 @@
     --color-text-light: #DBDFDE;
 
     --color-theme-green: #12503A;
-    --color-theme-green-hover-1: #018354;
+    --color-theme-red-hover-1: #830A48;
     --color-theme-light-hover-2: #fff;
 }
 
@@ -19,8 +19,8 @@
     color: var(--color-theme-green);
 }
 
-.color-theme-green-hover-1 {
-    color: var(--color-theme-green-hover-1);
+.color-theme-red-hover-1 {
+    color: var(--color-theme-red-hover-1);
 }
 
 .color-theme-light-hover-2 {

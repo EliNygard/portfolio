@@ -2,6 +2,7 @@
     margin: 4rem 1rem;
     display: flex;
     flex-direction: column;
+    
 }
 
 .intro-1 {
@@ -27,7 +28,7 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding: 0;
+    padding: 3rem 0 0 0;
 }
 
 .contact-icons li a i {
@@ -36,7 +37,11 @@
 }
 
 .contact-icons li a i:hover {
-    color: var(--color-theme-green-hover-1);
+    color: var(--color-theme-red-hover-1);
+}
+
+.intro-menu {
+    padding-top: 3rem;
 }
 
 .menu {
@@ -44,8 +49,11 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    padding: .5rem 0;
 }
 
 .menu p {
     font-size: .875rem;
+    margin: 0;
+
 }
