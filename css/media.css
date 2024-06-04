@@ -28,6 +28,11 @@
         font-size: 4rem;
     }
 
+    .contact-icons {
+        padding: 5rem 0 0 0;
+        gap: 3rem;
+    }
+
     .menu p {
         font-size: 1rem;
     }
