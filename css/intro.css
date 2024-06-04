@@ -1,0 +1,43 @@
+.intro {
+    margin: 4rem 1rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+}
+
+.intro p {
+    font-size: 1rem;
+}
+
+.intro ul {
+    margin: 3rem 0;
+}
+
+.contact-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+}
+
+.contact-icons li a i {
+    font-size: 1.8rem;
+    color: var(--color-theme-green);
+}
+
+.contact-icons li a i:hover {
+    color: var(--color-theme-green-hover-1);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu p {
+    font-size: .875rem;
+}
