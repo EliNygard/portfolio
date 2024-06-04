@@ -1,16 +1,24 @@
-.intro {
+.intro-wrapper {
     margin: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.intro h1 {
+.intro-1 {
+    height: 100vh;
+}
+
+
+.intro-1 h1 {
     font-size: 3rem;
+    margin: 1rem 0;
 }
 
-.intro p {
+.intro-1 p {
     font-size: 1rem;
 }
 
-.intro ul {
+.intro-1 ul {
     margin: 3rem 0;
 }
 
