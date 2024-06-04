@@ -1,0 +1,12 @@
+.projects-bg {
+    background-color: var(--color-theme-bg-dark);
+}
+
+.projects-wrapper {
+    margin: 1rem;
+    
+}
+
+.projects-wrapper img {
+    max-width: 300px;
+}

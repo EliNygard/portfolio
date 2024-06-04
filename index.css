@@ -1,9 +1,10 @@
 @import url("css/fonts.css");
 @import url("css/colors.css");
+@import url("css/global.css");
 
 @import url("css/intro.css");
+@import url("css/projects-list.css");
 
-@import url("css/global.css");
 
 @import url("css/reset.css");
 
