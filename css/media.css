@@ -70,35 +70,31 @@
         margin: 6rem;
     }
 
-    /* .thumbnail {
-        flex-direction: row;
-    }
-
-    .thumbnail img {
-        order: 1;
-    }
-
-    .thumbnail .title {
-        order: 2;
-    }
-
-    .thumbnail p {
-        order: 3;
-    }
-
-    .thumbnail .title, .thumbnail p {
-        flex-direction: column;
-    } */
-
     .projects-header h2, .projects-header h3 {
         font-size: 1.5rem;
     }
 
+    .link-wrapper {
+        display: flex;
+        gap: 4rem;
+    }
+
+
+
+    .project-item img {
+        max-width: 400px;
+      }
+
     .title h4 {
+        margin: 0;
         font-size: 1.375rem;
     }
 
+    
+
     .languages {
+        padding: 2rem 0;
         font-size: 1rem;
+
     }
 }
