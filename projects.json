@@ -6,7 +6,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "link": "https://norofffeu.github.io/FED1-PE1-EliNygard/",
         "screenshot": {
-            "img": "projects-img/29shots_so.png",
+            "img": "projects-img/HVL_so.png",
             "alt": "The home page of HotView Labs"
         }
       },
@@ -16,7 +16,7 @@
         "technologies": ["HTML", "CSS"],
         "link": "https://elinygard.github.io/FED1-SP1-EliNygard/",
         "screenshot": {
-            "img": "projects-img/TSM_16-9.png",
+            "img": "projects-img/TSM_so.png",
             "alt": "The home page of Tórshavn Science Museum"
         }
       },
@@ -26,7 +26,7 @@
         "technologies": ["HTML", "CSS"],
         "link": "https://norofffeu.github.io/FED1-HTML-CSS1-CA-EliNygard/",
         "screenshot": {
-            "img": "projects-img/SE_16-9.png",
+            "img": "projects-img/SE_so.png",
             "alt": "The home page of Square Eyes"
         }
       }
