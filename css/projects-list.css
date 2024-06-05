@@ -4,6 +4,7 @@
 
 .projects-wrapper {
   padding: 3rem 1rem 1rem 1rem;
+  margin: auto;
 }
 
 .projects-wrapper > ul {

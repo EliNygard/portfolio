@@ -1,5 +1,7 @@
 .about {
     padding: 3rem 1rem 1rem 1rem;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .about p {

@@ -1,5 +1,5 @@
 .intro-wrapper {
-    margin: auto;
+  margin: auto;
   padding: 4rem 1rem;
   display: flex;
   flex-direction: column;
@@ -14,38 +14,37 @@
 }
 
 .intro-1 h1 {
-    font-size: 3rem;
-    margin: 0;
+  font-size: 3rem;
+  margin: 0;
 }
 
 .intro-1 p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .intro-1 ul {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 
 .intro-2 {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .contact-icons {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 0;
 }
 
 .contact-icons li a i {
-    font-size: 1.8rem;
-    color: var(--color-theme-green);
+  font-size: 1.8rem;
+  color: var(--color-theme-green);
 }
 
 .contact-icons li a i:hover {
-    color: var(--color-theme-red-hover);
+  color: var(--color-theme-red-hover);
 }
-
 
 .intro-menu {
   display: flex;
@@ -56,9 +55,9 @@
 .menu {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 1rem;
   padding: 0.5rem 0;
+  text-decoration: none;
 }
 
 .menu p {

@@ -125,4 +125,11 @@
     padding: 1rem 0;
     font-size: 1rem;
   }
+
+
+  /* about section */
+
+  .about {
+    padding: 4rem;
+  }
 }
