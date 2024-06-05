@@ -6,7 +6,7 @@ fetch("projects.json")
     const projects = data.projects;
     console.log(projects);
     const projectsList = document.getElementById("projects-list");
-    // projectsList.innerHTML = "";
+    projectsList.innerHTML = "";
     projects.forEach((project) => {
       const projectItem = generateProjectsHtml(project);
       projectsList.appendChild(projectItem);
