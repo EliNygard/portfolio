@@ -25,13 +25,17 @@
     /* intro page */
 
     .intro-wrapper {
-        margin: 6rem;
-        flex-direction: row;
-        gap: 12rem;
+        height: 100dvh;
     }
 
+    .intro-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+      }
+
     .intro-1 {
-        min-width: 300px;
+        min-width: 33%;
         
     }
 
@@ -39,9 +43,20 @@
         font-size: 4rem;
     }
 
+    .intro-2 {
+        justify-content: center;
+    }
+
     .contact-icons {
-        padding: 5rem 0 0 0;
         gap: 3rem;
+    }
+
+    .intro-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: .5rem;
     }
 
     .menu p {
@@ -55,7 +70,7 @@
         margin: 6rem;
     }
 
-    .thumbnail {
+    /* .thumbnail {
         flex-direction: row;
     }
 
@@ -70,6 +85,10 @@
     .thumbnail p {
         order: 3;
     }
+
+    .thumbnail .title, .thumbnail p {
+        flex-direction: column;
+    } */
 
     .projects-header h2, .projects-header h3 {
         font-size: 1.5rem;

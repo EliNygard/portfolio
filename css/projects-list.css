@@ -38,7 +38,7 @@
   gap: 1rem;
 }
 
-.thumbnail img {
+.project-item img {
   max-width: 300px;
 }
 
@@ -46,14 +46,28 @@
   padding: 1rem 0 1.5rem 0;
   display: flex;
   gap: 0.5rem;
+  font-size: .7rem;
+}
+
+.languages li {
+    border: solid 1px var(--color-text-light);
+    border-radius: 5px;
+    padding: .2rem .3rem;
 }
 
 .github-link {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
   color: var(--color-text-light);
 }
 
 .github-link:hover {
   color: var(--color-theme-light-hover);
+}
+
+.github-link p {
+    font-size: .8rem;
 }
 
 .github-link i {
