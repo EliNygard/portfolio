@@ -1,10 +1,7 @@
 fetch("projects.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data.contact);
-
     const projects = data.projects;
-    console.log(projects);
     const projectsList = document.getElementById("projects-list");
     projectsList.innerHTML = "";
     projects.forEach((project) => {
@@ -45,11 +42,10 @@ function generateProjectsHtml(project) {
   const languages = project.technologies;
   languages.forEach((language) => {
     const item = document.createElement("li");
-    const span = document.createElement("div")
-    span.classList.add("flex", "items-center")
+    const span = document.createElement("div");
+    span.classList.add("flex", "items-center");
     span.textContent = language;
-    console.log(item);
-    item.appendChild(span)
+    item.appendChild(span);
     languagesList.appendChild(item);
   });
 
