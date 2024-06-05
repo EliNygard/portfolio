@@ -53,7 +53,7 @@
 .languages li {
     border: solid 1px var(--color-text-light);
     border-radius: 5px;
-    padding: .2rem .3rem;
+    padding: .4rem .5rem;
 }
 
 .github-link {
