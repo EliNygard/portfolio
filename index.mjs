@@ -23,4 +23,7 @@ fetch("projects.json")
       scrollToSection("about-section")
   })
 
-
+const emailButton = document.getElementById("email")
+emailButton.addEventListener('click', () => {
+  window.location.href = "mailto: eli.nygard@gmail.com"
+})
