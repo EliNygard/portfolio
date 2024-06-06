@@ -79,3 +79,9 @@
 .github-link i {
   font-size: 1.3rem;
 }
+
+.project-wrapper img,
+.project-text-content div,
+.github-link {
+  cursor: pointer;
+}

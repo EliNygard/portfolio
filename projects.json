@@ -5,6 +5,7 @@
       "description": "This is my Project Exam after the first year at Noroff. I have designed and built a a blog site for the fictional client HotView Labs. The blog aims to provide the most accurate and up to date insights to tech leaders across the world. Here you can read blog posts on what’s going on in the tech industry, from the most recent research to new developments.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "link": "https://norofffeu.github.io/FED1-PE1-EliNygard/",
+      "gitHub": "https://github.com/NoroffFEU/FED1-PE1-EliNygard",
       "screenshot": {
         "img": "projects-img/HVL_so.png",
         "alt": "The home page of HotView Labs"
@@ -15,6 +16,7 @@
       "description": "The web page for the fictive client Tórshavn Science Museum is my Semester Project after the first semester at Noroff. Here I put into practice what I have learned from the courses Design, HTML & CSS and Project Planning.",
       "technologies": ["HTML", "CSS"],
       "link": "https://elinygard.github.io/FED1-SP1-EliNygard/",
+      "gitHub": "https://github.com/EliNygard/FED1-SP1-EliNygard",
       "screenshot": {
         "img": "projects-img/TSM_so.png",
         "alt": "The home page of Tórshavn Science Museum"
@@ -25,6 +27,7 @@
       "description": "This is a Course Assignment for Design and HTML & CSS. I have created a webpage for a fictive video streaming site, where you can browse, buy and watch films online.",
       "technologies": ["HTML", "CSS"],
       "link": "https://norofffeu.github.io/FED1-HTML-CSS1-CA-EliNygard/",
+      "gitHub": "https://github.com/NoroffFEU/FED1-HTML-CSS1-CA-EliNygard",
       "screenshot": {
         "img": "projects-img/SE_so.png",
         "alt": "The home page of Square Eyes"

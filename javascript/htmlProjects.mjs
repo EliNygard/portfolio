@@ -52,6 +52,10 @@ export function generateProjectsHtml(project) {
   const gitLink = document.createElement("a");
   gitLink.title = "GitHub Repository";
   gitLink.classList.add("github-link");
+  gitLink.addEventListener('click', (event) => {
+    event.preventDefault()
+    redirect(project.gitHub)
+  })
 
   const gitLinkText = document.createElement("p");
   gitLinkText.classList.add("uppercase");
