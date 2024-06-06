@@ -13,9 +13,15 @@
   justify-content: space-between;
 }
 
+.intro-1 img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
 .intro-1 h1 {
-  font-size: 3rem;
-  margin: 0;
+  font-size: .8rem;
+  margin: 0 0 .5rem 0;
 }
 
 .intro-1 p {
@@ -43,7 +49,7 @@
 }
 
 .contact-icons li a i:hover {
-  color: var(--color-theme-red-hover);
+  color: #e05d62;
 }
 
 .intro-menu {

@@ -82,7 +82,7 @@
 }
 
 .project-wrapper img,
-.project-text-content div,
+.project-text-content > div,
 .github-link {
   cursor: pointer;
 }

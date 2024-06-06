@@ -66,8 +66,8 @@ export function generateProjectsHtml(project) {
 
   projectItem.appendChild(projectWrapper);
   projectWrapper.append(img, projectTextContent);
-  linkWrapper.append(titleContainer, description);
   projectTextContent.append(linkWrapper, languagesList, gitLink);
+  linkWrapper.append(titleContainer, description);
   titleContainer.append(projectTitle, linkIcon);
   gitLink.append(gitLinkText, gitIcon);
 
