@@ -112,6 +112,10 @@
     gap: 4rem;
   }
 
+  .project-item {
+    padding-bottom: 5rem;
+  }
+
   .project-item img {
     max-width: 400px;
   }
@@ -123,7 +127,11 @@
 
   .languages {
     padding: 1rem 0;
-    font-size: 1rem;
+  }
+  
+  .languages li div {
+    font-size: .8rem;
+    padding: 0.2rem 0.5rem;
   }
 
 
