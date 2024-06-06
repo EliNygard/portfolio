@@ -1,5 +1,5 @@
 import { generateProjectsHtml } from "./javascript/htmlProjects.mjs";
-import { scrollToProjects } from "./javascript/scroll.mjs";
+import { scrollToSection } from "./javascript/scroll.mjs";
 
 fetch("projects.json")
   .then((response) => response.json())
@@ -13,7 +13,14 @@ fetch("projects.json")
     });
   });
 
-const goToProjects = document.getElementById("go-to-projects")
-goToProjects.addEventListener('click', scrollToProjects)
+  const goToProjects = document.getElementById("go-to-projects")
+  goToProjects.addEventListener('click', () => {
+      scrollToSection("projects-section")
+  })
+  
+  const goToAbout = document.getElementById("go-to-about")
+  goToAbout.addEventListener('click', () => {
+      scrollToSection("about-section")
+  })
 
 

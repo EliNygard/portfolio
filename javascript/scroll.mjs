@@ -1,5 +1,5 @@
-export function scrollToProjects() {
-  const section = document.getElementById("projects-section");
+export function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
   if (section) {
     window.scrollTo({
       top: section.offsetTop,
