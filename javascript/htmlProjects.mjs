@@ -10,20 +10,19 @@ export function generateProjectsHtml(project) {
   const img = document.createElement("img");
   img.src = project.screenshot.img;
   img.alt = project.screenshot.alt;
-  img.addEventListener('click', (event) => {
-    event.preventDefault()
-    redirect(project.link)
-
-  })
+  img.addEventListener("click", (event) => {
+    event.preventDefault();
+    redirect(project.link);
+  });
 
   const projectTextContent = document.createElement("div");
   projectTextContent.classList.add("project-text-content");
 
   const linkWrapper = document.createElement("div");
-  linkWrapper.addEventListener('click', (event) => {
-    event.preventDefault()
-    redirect(project.link)
-  })
+  linkWrapper.addEventListener("click", (event) => {
+    event.preventDefault();
+    redirect(project.link);
+  });
 
   const titleContainer = document.createElement("div");
   titleContainer.classList.add("title");
