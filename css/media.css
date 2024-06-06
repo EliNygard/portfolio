@@ -9,10 +9,6 @@
 
   /* projects section */
 
-  .projects-wrapper {
-    /* margin: 6rem 4rem; */
-  }
-
   .projects-header h2,
   .projects-header h3 {
     font-size: 1.5rem;
@@ -27,8 +23,8 @@
     padding: 0;
   }
 
-  .project-item img {
-    max-width: 250px;
+  .project-wrapper img {
+    max-width: 300px;
   }
 
   .title h4 {
@@ -116,7 +112,7 @@
     padding-bottom: 5rem;
   }
 
-  .project-item img {
+  .project-wrapper img {
     max-width: 400px;
   }
 
