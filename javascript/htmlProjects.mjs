@@ -1,16 +1,29 @@
+import { redirect } from "./redirect.mjs";
+
 export function generateProjectsHtml(project) {
   const projectItem = document.createElement("li");
   projectItem.classList.add("project-item");
 
-  const linkWrapper = document.createElement("div");
-  linkWrapper.classList.add("project-wrapper");
+  const projectWrapper = document.createElement("div");
+  projectWrapper.classList.add("project-wrapper");
 
   const img = document.createElement("img");
   img.src = project.screenshot.img;
   img.alt = project.screenshot.alt;
+  img.addEventListener('click', (event) => {
+    event.preventDefault()
+    redirect(project.link)
+
+  })
 
   const projectTextContent = document.createElement("div");
   projectTextContent.classList.add("project-text-content");
+
+  const linkWrapper = document.createElement("div");
+  linkWrapper.addEventListener('click', (event) => {
+    event.preventDefault()
+    redirect(project.link)
+  })
 
   const titleContainer = document.createElement("div");
   titleContainer.classList.add("title");
@@ -48,14 +61,10 @@ export function generateProjectsHtml(project) {
   const gitIcon = document.createElement("i");
   gitIcon.classList.add("fa-brands", "fa-github");
 
-  projectItem.appendChild(linkWrapper);
-  linkWrapper.append(img, projectTextContent);
-  projectTextContent.append(
-    titleContainer,
-    description,
-    languagesList,
-    gitLink
-  );
+  projectItem.appendChild(projectWrapper);
+  projectWrapper.append(img, projectTextContent);
+  linkWrapper.append(titleContainer, description);
+  projectTextContent.append(linkWrapper, languagesList, gitLink);
   titleContainer.append(projectTitle, linkIcon);
   gitLink.append(gitLinkText, gitIcon);
 
