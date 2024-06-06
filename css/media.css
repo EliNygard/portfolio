@@ -18,7 +18,7 @@
     font-size: 1.5rem;
   }
 
-  .link-wrapper {
+  .project-wrapper {
     display: flex;
     gap: 4rem;
   }
@@ -107,7 +107,7 @@
     font-size: 1.5rem;
   }
 
-  .link-wrapper {
+  .project-wrapper {
     display: flex;
     gap: 4rem;
   }
@@ -128,12 +128,11 @@
   .languages {
     padding: 1rem 0;
   }
-  
+
   .languages li div {
-    font-size: .8rem;
+    font-size: 0.8rem;
     padding: 0.2rem 0.75rem;
   }
-
 
   /* about section */
 
