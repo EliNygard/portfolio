@@ -4,6 +4,10 @@
     max-width: 1000px;
 }
 
+.about h2 {
+    font-size: 1.25rem;
+}
+
 .about p {
     padding-bottom: 1rem; 
 }

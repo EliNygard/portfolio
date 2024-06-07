@@ -34,10 +34,11 @@ function setUpObserver() {
   console.log(target);
 
   const observer = new IntersectionObserver(
-    (entries, observer) => {
+    (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           target.appendChild(observerMenu("Home", "Read about me"))
+          // alert("home, read about me")
           observer.unobserve(target)
         }
       });
