@@ -51,4 +51,4 @@ function setUpObserver() {
   observer.observe(target);
 }
 
-setUpObserver();
+// setUpObserver();
