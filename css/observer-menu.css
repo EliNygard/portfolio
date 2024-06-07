@@ -1,0 +1,7 @@
+.observer-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: sticky;
+
+}

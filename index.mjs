@@ -1,3 +1,4 @@
+import { observerMenu } from "./javascript/htmlObserver.mjs";
 import { generateProjectsHtml } from "./javascript/htmlProjects.mjs";
 import { scrollToSection } from "./javascript/scroll.mjs";
 
@@ -36,7 +37,7 @@ function setUpObserver() {
     (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          // alert("to top");
+          target.appendChild(observerMenu("Home", "Read about me"))
           observer.unobserve(target)
         }
       });
