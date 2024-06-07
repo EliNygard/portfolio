@@ -36,6 +36,10 @@
   padding-bottom: 2rem;
 }
 
+.intro-2 :first-child {
+  padding-bottom: .5rem;
+}
+
 .contact-icons {
   display: flex;
   flex-direction: row;
