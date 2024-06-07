@@ -83,7 +83,7 @@
   }
 
   .intro-2 {
-    padding: 0;
+    padding: 4rem 0 0 0;
   }
 
   .intro-2 p {
@@ -95,8 +95,8 @@
     gap: 3rem;
   }
 
-  .menu p {
-    font-size: 1.1rem;
+  .menu span {
+    font-size: .9rem;
   }
 
   /* projects section */
@@ -146,5 +146,9 @@
   .about h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+  }
+
+  .buttons-nav {
+    margin-top: 4rem;
   }
 }
