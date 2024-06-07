@@ -14,15 +14,26 @@ fetch("projects.json")
     });
   });
 
-const goToProjects = document.getElementById("go-to-projects");
-goToProjects.addEventListener("click", () => {
-  scrollToSection("projects-section");
+const goToProjects = document.querySelectorAll(".go-to-projects");
+goToProjects.forEach((button) => {
+  button.addEventListener("click", () => {
+    scrollToSection("projects-section");
+  });
 });
 
-const goToAbout = document.getElementById("go-to-about");
-goToAbout.addEventListener("click", () => {
-  scrollToSection("about-section");
+const goToAbout = document.querySelectorAll(".go-to-about");
+goToAbout.forEach((button) => {
+  button.addEventListener("click", () => {
+    scrollToSection("about-section");
+  });
 });
+
+const goToTop = document.querySelectorAll(".go-to-top")
+goToTop.forEach((button) => {
+  button.addEventListener("click", () => {
+    scrollToSection("top-page")
+  })
+})
 
 const emailButton = document.getElementById("email");
 emailButton.addEventListener("click", () => {

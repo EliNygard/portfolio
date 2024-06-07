@@ -72,7 +72,8 @@
   cursor: pointer;
 }
 
-.menu p {
+.menu span {
   font-size: 0.875rem;
   margin: 0;
+  padding: 0;
 }
