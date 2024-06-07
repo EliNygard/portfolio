@@ -13,17 +13,40 @@ fetch("projects.json")
     });
   });
 
-  const goToProjects = document.getElementById("go-to-projects")
-  goToProjects.addEventListener('click', () => {
-      scrollToSection("projects-section")
-  })
-  
-  const goToAbout = document.getElementById("go-to-about")
-  goToAbout.addEventListener('click', () => {
-      scrollToSection("about-section")
-  })
+const goToProjects = document.getElementById("go-to-projects");
+goToProjects.addEventListener("click", () => {
+  scrollToSection("projects-section");
+});
 
-const emailButton = document.getElementById("email")
-emailButton.addEventListener('click', () => {
-  window.location.href = "mailto: eli.nygard@gmail.com"
-})
+const goToAbout = document.getElementById("go-to-about");
+goToAbout.addEventListener("click", () => {
+  scrollToSection("about-section");
+});
+
+const emailButton = document.getElementById("email");
+emailButton.addEventListener("click", () => {
+  window.location.href = "mailto: eli.nygard@gmail.com";
+});
+
+function setUpObserver() {
+  const target = document.getElementById("observer-target");
+  console.log(target);
+
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // alert("to top");
+          observer.unobserve(target)
+        }
+      });
+    },
+    {
+      root: null,
+      threshold: 1.0,
+    }
+  );
+  observer.observe(target);
+}
+
+setUpObserver();
