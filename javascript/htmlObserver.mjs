@@ -11,9 +11,3 @@ export function observerMenu(menu1, menu2) {
 
     return container
 }
-
-export function buttonGoToTop() {
-    const button = document.createElement("button")
-    button.textContent = "To top"
-    return button
-}

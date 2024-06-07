@@ -1,4 +1,4 @@
-import { buttonGoToTop, observerMenu } from "./javascript/htmlObserver.mjs";
+import { observerMenu } from "./javascript/htmlObserver.mjs";
 import { generateProjectsHtml } from "./javascript/htmlProjects.mjs";
 import { scrollToSection } from "./javascript/scroll.mjs";
 
@@ -30,16 +30,15 @@ emailButton.addEventListener("click", () => {
 });
 
 function setUpObserver() {
-  const target = document.getElementById("observer-target");
-  console.log(target);
+  const target = document.getElementById("project-section");
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          target.appendChild(buttonGoToTop)
+          target.appendChild(observerMenu);
           // alert("home, read about me")
-          observer.unobserve(target)
+          observer.unobserve(target);
         }
       });
     },
@@ -52,5 +51,3 @@ function setUpObserver() {
 }
 
 // setUpObserver();
-
-
