@@ -86,3 +86,7 @@
 .github-link {
   cursor: pointer;
 }
+
+.projects-wrapper .buttons-nav button:hover {
+  color: var(--color-theme-light-hover)
+}
