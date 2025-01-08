@@ -1,9 +1,42 @@
 {
   "projects": [
     {
+      "title": "Christina Lande - a filmmaker's portfolio",
+      "description": "This portfolio displays filmmaker Christina Lande's work. You can read more about each film project, get to know Christina a bit better and contact her.",
+      "technologies": ["Figma", "HTML", "CSS", "JavaScript"],
+      "link": "https://elinygard.github.io/ChristinaLande/",
+      "gitHub": "https://github.com/EliNygard/ChristinaLande",
+      "screenshot": {
+        "img": "projects-img/CL.png",
+        "alt": "The home page of Bidlet"
+      }
+    },
+    {
+      "title": "Bidlet",
+      "description": "Bidlet is my Semester Project after the third semester at Noroff.  This is a website for the fictional auction house Bidlet. A website where you can register as a user to buy and sell items, or just visit the site to browse through all the items on auction.",
+      "technologies": ["Figma", "HTML", "Tailwind CSS", "TypeScript"],
+      "link": "https://bidlet.netlify.app/",
+      "gitHub": "https://github.com/EliNygard/sp2-auction",
+      "screenshot": {
+        "img": "projects-img/Bidlet.png",
+        "alt": "The home page of Bidlet"
+      }
+    },
+    {
+      "title": "Noroff Social App",
+      "description": "This started out as a Java Script 2 assignment and evolved through the courses Workflow and CSS Frameworks. I have designed and built a fictional social community for Noroff staff and students where they can share images and text and comment on each other's posts.",
+      "technologies": ["Figma", "HTML", "Tailwind CSS", "JavaScript"],
+      "link": "https://elinygard.github.io/NoroffSocialApp/",
+      "gitHub": "https://github.com/EliNygard/NoroffSocialApp",
+      "screenshot": {
+        "img": "projects-img/NSA.png",
+        "alt": "The home page of Noroff Social App"
+      }
+    },
+    {
       "title": "HotView Labs",
-      "description": "This is my Project Exam after the first year at Noroff. I have designed and built a a blog site for the fictional client HotView Labs. The blog aims to provide the most accurate and up to date insights to tech leaders across the world. Here you can read blog posts on what’s going on in the tech industry, from the most recent research to new developments.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "This is my Project Exam after the first year at Noroff. I have designed and built a blog site for the fictional client HotView Labs. The blog aims to provide the most accurate and up to date insights to tech leaders across the world. Here you can read blog posts on what's going on in the tech industry, from the most recent research to new developments.",
+      "technologies": ["Figma", "HTML", "CSS", "JavaScript"],
       "link": "https://norofffeu.github.io/FED1-PE1-EliNygard/",
       "gitHub": "https://github.com/NoroffFEU/FED1-PE1-EliNygard",
       "screenshot": {
@@ -14,7 +47,7 @@
     {
       "title": "Tórshavn Science Museum",
       "description": "The web page for the fictive client Tórshavn Science Museum is my Semester Project after the first semester at Noroff. Here I put into practice what I have learned from the courses Design, HTML & CSS and Project Planning.",
-      "technologies": ["HTML", "CSS"],
+      "technologies": ["Figma", "HTML", "CSS"],
       "link": "https://elinygard.github.io/FED1-SP1-EliNygard/",
       "gitHub": "https://github.com/EliNygard/FED1-SP1-EliNygard",
       "screenshot": {
@@ -25,7 +58,7 @@
     {
       "title": "Square Eyes",
       "description": "This is a Course Assignment for Design and HTML & CSS. I have created a webpage for a fictive video streaming site, where you can browse, buy and watch films online.",
-      "technologies": ["HTML", "CSS"],
+      "technologies": ["Figma", "HTML", "CSS"],
       "link": "https://norofffeu.github.io/FED1-HTML-CSS1-CA-EliNygard/",
       "gitHub": "https://github.com/NoroffFEU/FED1-HTML-CSS1-CA-EliNygard",
       "screenshot": {

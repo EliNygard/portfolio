@@ -8,6 +8,7 @@ export function generateProjectsHtml(project) {
   projectWrapper.classList.add("project-wrapper");
 
   const img = document.createElement("img");
+  img.title = `Visit ${project.title}`
   img.src = project.screenshot.img;
   img.alt = project.screenshot.alt;
   img.addEventListener("click", (event) => {
@@ -19,6 +20,7 @@ export function generateProjectsHtml(project) {
   projectTextContent.classList.add("project-text-content");
 
   const linkWrapper = document.createElement("div");
+  linkWrapper.title = `Visit ${project.title}`
   linkWrapper.addEventListener("click", (event) => {
     event.preventDefault();
     redirect(project.link);
