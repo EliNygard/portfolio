@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "title": "Infinite Finds",
+      "description": "",
+      "technologies": ["Figma", "Vite", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://infinitefinds.netlify.app/",
+      "gitHub": "https://github.com/EliNygard/fed2-jsframeworks-ca",
+      "screenshot": {
+        "img": "projects-img/IF.jpg",
+        "alt": "The home page of Infinite Finds"
+      }
+    },
+    
+    {
+      "title": "Bidlet",
+      "description": "Bidlet is my Semester Project after the third semester at Noroff.  This is a website for the fictional auction house Bidlet. A website where you can register as a user to buy and sell items, or just visit the site to browse through all the items on auction.",
+      "technologies": ["Figma", "Vite", "HTML", "Tailwind CSS", "TypeScript"],
+      "link": "https://bidlet.netlify.app/",
+      "gitHub": "https://github.com/EliNygard/sp2-auction",
+      "screenshot": {
+        "img": "projects-img/Bidlet.png",
+        "alt": "The home page of Bidlet"
+      }
+    },
+    {
       "title": "Christina Lande - a filmmaker's portfolio",
       "description": "This portfolio displays filmmaker Christina Lande's work. You can read more about each film project, get to know Christina a bit better and contact her.",
       "technologies": ["Figma", "HTML", "CSS", "JavaScript"],
@@ -8,18 +31,7 @@
       "gitHub": "https://github.com/EliNygard/ChristinaLande",
       "screenshot": {
         "img": "projects-img/CL.png",
-        "alt": "The home page of Bidlet"
-      }
-    },
-    {
-      "title": "Bidlet",
-      "description": "Bidlet is my Semester Project after the third semester at Noroff.  This is a website for the fictional auction house Bidlet. A website where you can register as a user to buy and sell items, or just visit the site to browse through all the items on auction.",
-      "technologies": ["Figma", "HTML", "Tailwind CSS", "TypeScript"],
-      "link": "https://bidlet.netlify.app/",
-      "gitHub": "https://github.com/EliNygard/sp2-auction",
-      "screenshot": {
-        "img": "projects-img/Bidlet.png",
-        "alt": "The home page of Bidlet"
+        "alt": "The home page of Christina Lande"
       }
     },
     {
@@ -35,7 +47,7 @@
     },
     {
       "title": "HotView Labs",
-      "description": "This is my Project Exam after the first year at Noroff. I have designed and built a blog site for the fictional client HotView Labs. The blog aims to provide the most accurate and up to date insights to tech leaders across the world. Here you can read blog posts on what's going on in the tech industry, from the most recent research to new developments.",
+      "description": "This is my Project Exam after the first year at Noroff. I have designed and built a blog site for the fictional client HotView Labs. The blog aims to provide the most accurate and up to date insights to tech leaders across the world. Here you can read blog posts on what's going on in the tech industry, from the most recent research to new developments. You can register a user and create blog posts.",
       "technologies": ["Figma", "HTML", "CSS", "JavaScript"],
       "link": "https://norofffeu.github.io/FED1-PE1-EliNygard/",
       "gitHub": "https://github.com/NoroffFEU/FED1-PE1-EliNygard",
@@ -54,22 +66,8 @@
         "img": "projects-img/TSM_so.png",
         "alt": "The home page of Tórshavn Science Museum"
       }
-    },
-    {
-      "title": "Square Eyes",
-      "description": "This is a Course Assignment for Design and HTML & CSS. I have created a webpage for a fictive video streaming site, where you can browse, buy and watch films online.",
-      "technologies": ["Figma", "HTML", "CSS"],
-      "link": "https://norofffeu.github.io/FED1-HTML-CSS1-CA-EliNygard/",
-      "gitHub": "https://github.com/NoroffFEU/FED1-HTML-CSS1-CA-EliNygard",
-      "screenshot": {
-        "img": "projects-img/SE_so.png",
-        "alt": "The home page of Square Eyes"
-      }
     }
-  ],
-  "contact": {
-    "email": "your-email@example.com",
-    "phone": "123-456-7890",
-    "linkedin": "http://linkedin.com/in/yourprofile"
-  }
+    
+  ]
+  
 }
