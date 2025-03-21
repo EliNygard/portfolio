@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Infinite Finds",
-      "description": "",
+      "description": "This is a website for the fictional online shop Infinite Finds, built for the course JavaScript Frameworks at Noroff. Brows through diverse products, add to cart and checkout. The goal of this course assignment was to use React to build the website.",
       "technologies": ["Figma", "Vite", "React", "TypeScript", "Tailwind CSS"],
       "link": "https://infinitefinds.netlify.app/",
       "gitHub": "https://github.com/EliNygard/fed2-jsframeworks-ca",
